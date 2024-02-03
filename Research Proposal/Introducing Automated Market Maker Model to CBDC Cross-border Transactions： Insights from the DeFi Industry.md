@@ -1,0 +1,60 @@
+# Research Proposal
+### Introducing Automated Market Maker Model to CBDC Cross-border Transactions: Insights from the DeFi Industry
+
+## Abstract
+Central Bank Digital Currency (CBDC) is a digital legal currency based on blockchain technology. It is expected to improve the efficiency and security of cross-border payments, but it also faces challenges such as insufficient liquidity and exchange rate fluctuations. This research aims to explore the feasibility and advantages of introducing the Automated Market Maker (AMM) model from the decentralized finance (DeFi) industry into CBDC cross-border transactions. AMM is an algorithm-based liquidity provision mechanism that can realize instant transactions without an order book through smart contracts, reduce transaction costs and credit risks, increase market depth and transparency, and provide central banks with more exchange rate control measures. This research will compare different AMM algorithms, such as Uniswap, Balancer, Curve, etc., and different CBDC cross-border transaction schemes, such as Jasper-Ubin, Stella, Aber, Jura, Dunbar, etc., through literature review, theoretical analysis, and simulation experiments. It designs and evaluates an AMM model suitable for CBDC cross-border transactions, hoping to provide some insights and suggestions for the international development of CBDC.
+
+### Keywords: Automated Market Makers, CBDC, Blockchain, Cross-border Transaction, Decentralized exchange (DEX)
+
+## Research Background
+
+With the globalization and digitalization of the economy, the demand for cross-border payments is increasing. However, the traditional cross-border payment industry has many disadvantages, such as high fees, slow speed, poor transparency, and difficult supervision. To address these challenges, countries have begun to try to use Central Bank Digital Currency (CBDC) to achieve instant cross-border transactions and improve the efficiency and security of payments. CBDC is a digital legal currency issued and supervised by the central bank. It is based on blockchain technology and has characteristics such as traceability, tamper-resistance, and programmability. It can be compatible with existing payment systems and can also support peer-to-peer transactions. In recent years, some countries and regions have carried out explorations and experiments on CBDC cross-border transactions, such as Jasper-Ubin (Bank of Canada and Monetary Authority of Singapore (2019))[1], Stella (European Central Bank and Bank of Japan (2019))[2], Aber (Saudi Central Bank and Central Bank of the United Arab Emirates (2020))[3],  mBridge (BISIH et al.(2021))[4], Jura (BISIH et al.(2021b))[5],  and Dunbar (BISIH et al.(2022))[6]. These schemes all show the feasibility and advantages of CBDC cross-border transactions, but there are also some potential risks and challenges, such as the inability to meet the diversified payment needs of the international community, lack of liquidity, and possible exchange rate fluctuations.
+
+In the decentralized finance (DeFi) industry, we can see that in order to deal with these risks, various decentralized exchanges (DEX) have developed Automated Market Maker (AMM) algorithms, such as Uniswap, Balancer, Curve, etc. AMM is an algorithm-based liquidity provision mechanism that can realize instant transactions without an order book through smart contracts, reduce transaction costs and credit risks, increase market depth and transparency, and provide central banks with more exchange rate control measures. Compared with traditional order book trading methods, introducing the improved AMM model into CBDC cross-border transactions can well solve the above pain points and enhance the central bank’s control over macro exchange rates.
+
+## Research Aim
+The purpose of this research is to, first, demonstrate the theoretical feasibility and advantages of introducing AMM into CBDC cross-border transactions, and analyze the characteristics and applicability of different AMM algorithms and CBDC cross-border transaction schemes. Second, design and evaluate an AMM model suitable for CBDC cross-border transactions, considering its impact on liquidity, exchange rate, transaction cost, supervision, etc. Third, conduct simulation experiments to verify the performance and effect of the designed AMM model, and compare it with other models. Finally, summarize and discuss the main findings and contributions of this research, as well as its limitations and future research directions.
+
+## Literature Review
+In today’s globalized world, the demand for cross-border payments is growing. However, traditional cross-border payment methods have high costs, slow processing speeds, and poor transparency. To address these issues, the Bank for International Settlements (BIS) launched the Project mBridge[4] pilot project. This project, using blockchain technology, successfully solved these problems but also exposed some potential risks.
+
+While summarizing the innovations of the mBridge international payment system, Tu Yonghong et al.[7] also pointed out the challenges it faces, including meeting the diversified needs of international payments, exchange rate risks, and ensuring liquidity. After demonstrating the feasibility of the on-chain foreign exchange market, Adams et al.[8] proposed the possibility of using the Automated Market Maker (AMM) protocol of Decentralized Finance (DeFi) to achieve faster, cheaper, and more efficient value exchange and transfer.
+
+In order to improve the efficiency of on-chain transactions, Automated Market Makers (AMM) were introduced. Vitalik Buterin[9] proposed the concept of on-chain AMM in 2016 to address the increased Gas costs and low liquidity associated with traditional order book models. This concept was first applied in the Bancor protocol[10] in 2017, allowing trades between Bancor Network Tokens (BNT) and other ERC-20 tokens through specific smart tokens. Martin Koppelmann suggested simplifying Buterin’s idea and proposed the constant product formula[11], leading to the birth of Uniswap v1. It implemented the constant product formula and liquidity pool, and allowed trading between ETH and any other ERC-20 token. In 2020, Uniswap v2[12] was launched, incorporating liquidity pools composed of any pair of ERC-20 tokens, thereby eliminating the need for the ETH bridge in Uniswap v1.
+
+The Banque de France (BdF) and the Monetary Authority of Singapore (MAS) in the 2021 Multi-Currency Corridor Network project[13], through simulating cross-border transactions involving multiple Central Bank Digital Currencies (m-CBDC) between Singapore and France, affirmed that AMM is a viable alternative to traditional order book infrastructure.
+
+On this basis, BIS’s Project Mariana(2023)[14] took the lead in conducting experiments on wCBDC cross-border transactions using AMM, demonstrating its technical feasibility. However, the experiment did not improve the existing AMM model to make it more suitable for the environment of CBDC cross-border transactions. In addition, the HFMM used in the experiment is a three-token pool, which cannot meet the diversified needs of international payments.
+
+Therefore, improving the AMM model and how to better achieve transactions and reduce regulatory risks will be important directions for future research. This will provide us with a new perspective to understand and cope with the challenges of cross-border payments, and also provide us with an opportunity to meet the payment needs of the globalized era in an innovative way.
+
+## Research Method
+This research will adopt the following research methods:
+
+- Literature research. Collect and analyze literature related to CBDC, AMM, and cross-border transactions, understand the research background, status quo, and frontier, and determine the research questions and goals.
+- Theoretical research and analysis. Compare different AMM algorithms and CBDC cross-border transaction schemes, evaluate from the aspects of liquidity, exchange rate, transaction cost, supervision, etc., design and optimize an AMM model suitable for CBDC cross-border transactions, and establish mathematical formulas and logical frameworks.
+- Simulation experiments and verification. Use computer software or platforms, such as Matlab, Python, Ethereum, etc., to simulate different CBDC cross-border transaction scenarios, run the designed AMM model, collect and analyze experimental data, verify the performance and effect of the model, and compare it with other models.
+
+## Expected Result
+This research expects to obtain the following results:
+
+- Through literature review, systematically sort out the relevant theories and practices of CBDC, AMM, and cross-border transactions, and provide a solid foundation for subsequent research.
+- Through theoretical research and analysis, successfully design and optimize an AMM model suitable for CBDC cross-border transactions, clarify its impact on liquidity, exchange rate, transaction cost, supervision, etc., and provide a new trading mechanism and tool for central banks and participants.
+- Through simulation experiments and verification, effectively prove the feasibility and advantages of the designed AMM model, compare it with other models, and show its performance and effect in different CBDC cross-border transaction scenarios, providing some insights and suggestions for the international development of CBDC.
+
+## Reference
+1. Monetary Authority of Singapore. (2022). Project Ubin: Central Bank Digital Money using Distributed Ledger Technology. Retrieved from www.mas.gov.sg/schemes-and-initiatives/project-ubin
+2. Bank of Japan FinTech Center. (2020). Project Stella: the ECB and the Bank of Japan release joint report on distributed ledger technology (Phase 4). Retrieved from www.boj.or.jp/en/paym/fintech/data/rel200212a1.pdf
+3. Central Bank of the UAE. (2020). Project Aber: Final Report. Retrieved from https://www.centralbank.ae/media/cbshgsmf/aber-report-2020-en.pdf
+4. BIS Innovation Hub. (2022). Project mBridge: Connecting Economies Through CBDC. Retrieved from www.bis.org/publ/othp59.pdf
+5. BIS Innovation Hub. (2021). Project Jura: cross-border settlement using wholesale CBDC. Retrieved from www.bis.org/publ/othp44.pdf
+6. BIS Innovation Hub. (2022). Project Dunbar: International settlements using multi-CBDCs. Retrieved from https://www.bis.org/publ/othp47.pdf
+7. Tu, Y., Zhang, C., Liu, J., & Zhu, Q. (2024). mBridge: Innovation of International Payment System within the Digital Economy. _Studies of International Finance_, (1), 73-85.
+8. Adams, A., Lader, M-C., Liao, G., Puth, D., & Wan, X. (2023). On-chain foreign exchange and cross-border payments.
+9. Buterin, V. (2016). Let’s run on-chain decentralized exchanges the way we run prediction markets. Reddit post. Retrieved from www.reddit.com/r/ethereum/comments/55m04x/lets_run_onchain_decentralized_exchanges_the_way/.
+10. Hertzog, E., Benartzi, G., & Benartzi, G. Bancor Protocol. Continuous Liquidity for Cryptographic Tokens Through Their Smart Contracts. Retrieved from https://cryptorating.eu/whitepapers/Bancor/bancor_protocol_whitepaper_en.pdf
+11. Angeris, G., Agrawal, A., Evans, A., Chitra, T., & Boyd, S. (2021). Constant Function Market Makers: Multi-Asset Trades via Convex Optimization. _Papers_, 2107.12484. Retrieved from https://ideas.repec.org/p/arx/papers/2107.12484.html
+12. Adams, H., Zinsmeister, N., & Robinson, D. Uniswap v2 Core. Retrieved from https://uniswap.org/whitepaper.pdf
+13. Monetary Authority of Singapore. (2021). Onyx BdFMAS Liquidity Management in a MultiCurrency Corridor Network. Retrieved from www.mas.gov.sg/-/media/mas-media-library/development/fintech/onyx-bdfmas-liquidity-management-in-a-multicurrency-corridor-networkv.pdf
+14. BIS Innovation Hub. (2023). Project Mariana: Cross-border exchange of wholesale CBDCs using automated market-makers. Retrieved from www.bis.org/publ/othp75.htm
+15. Xu, J., Paruch, K., Cousaert, S., & Feng, Y. (2023). SoK: decentralised exchanges (DEX) with automated market-makers (AMM) protocols. _ACM Computing Surveys_, 55(11).
